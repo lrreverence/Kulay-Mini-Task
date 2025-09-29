@@ -18,6 +18,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.kandilasacake.reactnativecartapp",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -25,6 +27,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1157a60b-4735-4bb2-a72c-adcc63fb447c"
+      }
     }
   }
 }
